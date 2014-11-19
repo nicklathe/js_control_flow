@@ -1,8 +1,8 @@
 var thing = "cat";
-var count = "1";
+var count = 6;
 
 if(count <= 1) {
-	console.log(count, thing);
+	console.log(count + " " + thing);
 } else {
-	console.log(count, thing.concat("'s"));
+	console.log(count + " " + thing.concat("s"));
 }
