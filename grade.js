@@ -1,4 +1,5 @@
-var testScore = 85;
+var testScore = Math.ceil(Math.random() * 100);
+console.log(testScore);
 
 switch(true) {
 	case testScore >= 90:
